@@ -2,7 +2,7 @@
 An AI based chat application
 
 https://github.com/lucio617/Chat-App/assets/55478160/f5faee18-ea99-4d12-ae9e-edcddf9cf731
-#################################################################################################
+**************************************************************************************************
 ![chat](https://github.com/lucio617/Chat-App/assets/55478160/3e5138f1-fc8f-4765-b79f-f8f8c26297cb)
 ![chat1](https://github.com/lucio617/Chat-App/assets/55478160/ad8f65f2-edf4-4047-891b-1fa2e4884a36)
 ![chat3](https://github.com/lucio617/Chat-App/assets/55478160/c5f547dd-d7f7-4919-8414-1c8bbb08361b)
