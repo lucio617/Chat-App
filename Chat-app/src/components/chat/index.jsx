@@ -34,9 +34,10 @@ export function Chat({ user, secret }) {
               <AiAssist props={props} activeChat={chatProps.chat}></AiAssist>
             );
           }
-          {console.log("Standard Rendering")}
+          {
+            console.log("Standard Rendering");
+          }
           return (
-            
             <StandardMessageForm
               props={props}
               activeChat={chatProps.chat}

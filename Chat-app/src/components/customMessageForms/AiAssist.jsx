@@ -39,7 +39,7 @@ export function AiAssist({ props, activeChat }) {
       activeChatId: activeChat.id,
     };
 
-    props.onSubmit(form);
+     props.onSubmit(form);
     setMessage("");
     setAttachment("");
   };

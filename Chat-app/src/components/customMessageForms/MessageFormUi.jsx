@@ -47,7 +47,7 @@ export function MessageFormUi({
             placeholder="Send a message..."
             required
           ></input>
-          {appendText && <input className="message-form-assist" type="text" disabled="disabled" value={`${message} ${appendText}`} ></input>}
+          {appendText && <input className="message-form-assist" type="text" disabled="disabled" value={`${message} ${appendText}`} placeholder="Send a message..." ></input>}
         </div>
         <div className="message-form-icons">
           <Dropzone

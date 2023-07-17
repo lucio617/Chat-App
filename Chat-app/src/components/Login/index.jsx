@@ -1,4 +1,5 @@
 import { usePostLoginMutation, usePostSignUpMutation } from "@/state/api";
+
 import { useEffect, useState } from "react";
 
 export function Login({ setUser, setSecret }) {
@@ -14,7 +15,11 @@ export function Login({ setUser, setSecret }) {
   const handleRegister = () => {
     triggerSignUp({ username, password });
 
-    if (resultSignup.status === "fulfilled") alert("User Registered");
+  
+    if (resultSignup.status === "fulfilled") {
+      console.log("yes")
+      alert("User Registered Successfully!! Please proceed to login");
+    }
   };
 
   useEffect(() => {
@@ -28,7 +33,7 @@ export function Login({ setUser, setSecret }) {
   return (
     <div className="login-page">
       <div className="login-container">
-        <h2 className="title">CHATGPT APP</h2>
+        <h2 className="title">INTELLICHAT</h2>
         <p
           className="register-change"
           onClick={() => setIsRegister(!isRegister)}

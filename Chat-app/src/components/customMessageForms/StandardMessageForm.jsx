@@ -32,7 +32,7 @@ export function StandardMessageForm({ props, activeChat }) {
          text: message,
          activeChatId: activeChat.id
       };
-      if(message!="")props.onSubmit(form);
+      if(message!="" || attachment!="")props.onSubmit(form);
       setMessage("");
       setAttachment("");
    }
