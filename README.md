@@ -10,3 +10,22 @@ https://github.com/lucio617/Chat-App/assets/55478160/f5faee18-ea99-4d12-ae9e-edc
 ![chat4](https://github.com/lucio617/Chat-App/assets/55478160/cea70d1a-9b1f-495a-b7b1-a18b48831466)
 ![chat5](https://github.com/lucio617/Chat-App/assets/55478160/90f78b08-7585-40aa-a9ad-3bfcb4a53a98)
 ![chat6](https://github.com/lucio617/Chat-App/assets/55478160/e75d73db-3cc8-4cd9-b59c-4f20049efb09)
+
+## Setup
+To run this project, install it locally using npm:
+
+```
+In Chat App initialize npm for both client and server
+$ npm install
+
+```
+Make proper environment variables for the chatengine to connect and put it inside client folder
+
+Learn more about chatengine:https://chatengine.io/docs/react/v1
+```
+Install openai modules and create a new API key to use it for server
+$ npm install openai
+
+Learn more about openai api:https://platform.openai.com/docs/guides/gpt
+
+
