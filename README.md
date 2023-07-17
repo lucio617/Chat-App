@@ -22,9 +22,11 @@ $ npm install
 Make proper environment variables for the chatengine to connect and put it inside client folder
 
 Learn more about chatengine:https://chatengine.io/docs/react/v1
+
 ```
 Install openai modules and create a new API key to use it for server
 $ npm install openai
+```
 
 Learn more about openai api:https://platform.openai.com/docs/guides/gpt
 
